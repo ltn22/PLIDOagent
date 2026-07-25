@@ -15,6 +15,11 @@ qui décrit le déroulé global du cours et annonce le contenu de la partie du j
 **Chaque fois qu'un nouveau chapitre/partie est ajouté au cours, cette introduction doit être mise à
 jour** pour refléter les parties déjà vues et annoncer correctement le contenu de la nouvelle séance.
 
+Cette section prend la forme d'une liste uniforme ("Course roadmap") où chaque partie est une puce
+`**Part N — titre**: description`, y compris la partie du jour. Ne pas isoler la dernière partie
+dans une section séparée type "## Today: Part N" : ça casse la cohérence de la liste et n'a plus de
+sens dès que cette partie n'est plus "aujourd'hui".
+
 ## Google Colab vs machine locale
 
 `Part_1_philosopher.ipynb` est volontairement local-only : son but est justement d'apprendre à
