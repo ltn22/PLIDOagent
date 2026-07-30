@@ -1,0 +1,485 @@
+SOURCE: https://www.imt-atlantique.fr/sites/default/files/document/TAF%202019.pdf
+
+Master of Science in Engineering 
+Diplôme d’Ingénieur IMT Atlantique
+In-depth study themes 
+Thématiques d’approfondissement –T AFs
+(courses mostly taught in French) 
+Master of Science in Engineering - Diplôme d’Ingénieur IMT Atlantique 
+MAJORS 
+
+Master of Science in Engineering - Diplôme d’Ingénieur IMT Atlantique 
+MAJORS 
+ Healthcare engineering : assisted surgery technologies, medical imaging, 
+diagnostic assistance or even tattooing of medical data 
+ Energy, nuclear and environmental engineering : process engineering, energy 
+systems, eco-design, nuclear physics, radiochemistry, neutronics or safety 
+ Computer science and networks : big data, applied mathematics, software 
+engineering, cybersecurity, artificial intelligence or cloud computing 
+ Industrial engineering and organizations : industrial performance, digital business 
+models, production management, logistics optimization and digi tal transformation 
+management 
+ Electrical engineering / robotics, electronics, automati on, telecommunication 
+and embedded systems: human-machine interaction, communication systems, 
+connected objects, space and maritime surveillance, etc.
+Master of Science in Engineering - Diplôme d’Ingénieur IMT Atlantique 
+In-depth study themes (TAFs) offered in 2019 
+COMPUTER SCIENCE AND NETWORK 
+ IoT , IoT for industry 4.0 (R, taught in English) 
+ CoOC , Design of communicating objects (B) 
+ Cyber, Cybersecurity (R ) 
+ DaSci, Data Science (B)
+ DCL , Collaborative software development (BN) 
+ DigIC, Digitalisation, innovation and changes (B)
+ IHM , HMI & collaborative systems (B) 
+ MCE , Mathematical and computational 
+engineering (B)
+ PNum , Digital platforms: technologies and 
+markets (R, taught in English) 
+ELECTRICAL ENGINEERING 
+ ISC , Communications Systems Engineering (B) 
+ OPE , Observation and perception of the 
+environment (B) 
+ SEH , Embedded and heterogeneous systems * 
+(B) 
+ENERGY , NUCLEAR AND ENVIRONMENT 
+ DEMIN , Development and management of 
+nuclear facilities (N) 
+ TEE , Energy and environmental transitions - M1 
+(N) 
+HEALTHCARE ENGINEERING 
+ Health , Healthcare Engineering (BN) 
+INDUSTRIAL ENGINEERING 
+ ASCy , Automation and cyber-physical systems 
+(N) 
+ COPSI , Design, Optimization and Control of 
+Industrial Systems (N) 
+ MPR, Risk and return management (N) 
+ Robin , Robotics and interactions (N) 
+Each TAF is taught in only one campus 
+Master of Science in Engineering - Diplôme d’Ingénieur IMT Atlantique 
+Choice of courses 
+There are 11 slots (rated from A to K) in all the TAF s
+Each course ( UE ) chosen by the student must be from a different slot 
+Students cannot take more than 11 UE per year 
+To validate a TAF students must pass at least 8 courses ( UE ): 
+ All the core courses ( UE coeur ) of the TAF , which are mandatory (3 or 4 
+depending on the TAF )
+ 3 or 4 elective courses ( UE électives) of the TAF 
+ Free courses (UE libres ): students can take other UEs from other slots 
+(among all UEs available in all the TAF s) either to get 8 UEs or as extra. 
+HOW TO READ THE SLIDES 
+Acronym and title (number of UE cœur + number of UE électives to be 
+passed in order to validate the TAF )
+UE Cœur : core courses 
+UE Électives : specialized courses 
+UE Libres : elective courses to be chosen from a different TAF 
+Schedule of UEs :
+A, B, C, D : September - December 
+E: January 
+F, G, H : February, March 
+I, J, K : April, May 
+COURSE SCHEDULE 
+
+ASCY – AUTOMATION AND CYBER-PHYSICAL SYSTEMS (4+3) 
+Core 
+A: Modeling, analysis and simulation of mechatronics s ystems 
+B: From perception to action: robust control of dynami c systems 
+C: Identification and estimation of signals and dynam ic systems 
+F: Implementation of control or diagnostic algorithms
+Electives 
+D: Contemporary managerial issues 
+Management of the company’s performance 
+Engineering of complex systems 
+Environmental energy: issues and strategies 
+E: Prototyping robotic systems 
+G: Advanced control methodology 
+Embedded systems 
+H: Smart transports 
+Cyber-physical systems optimization 
+Real time and distributed information systems 
+I, J, K: free choice of course 
+Contact: fabien.claveau@imt-atlantique.fr 
+COOC – COMMUNICATING OBJECTS DESIGN (3+3) 
+Core 
+A: User centered design 
+B: Rapid prototyping and agile development 
+C: The object in its environment 
+Electives 
+D: Advanced methods of programing and software develo pment 
+E: Radio software 
+Decrypting a market 
+F: Evaluation, acceptability and digital ressources 
+Internet of things, social web and semantic 
+New techniques and uses of visualisation and interactive display 
+G: Web applications Engineering 
+AI – optimised implementation 
+Connected medical devices 
+H: Development of mobile devices 
+Introduction to AI 
+I: Sensors and Energy 
+J: Innovation Ecosystem 
+Introduction to AI 
+K: Electronics integration: from the algorithm to the  prototype 
+Contact: charlotte.langlais@imt-atlantique.fr 
+COPSI – DESIGN, OPTIMIZATION & CONTROL OF 
+INDUSTRIAL SYSTEMS (4+3) 
+Core 
+A: Operation management 
+B: Modeling languages and technics 
+C: Operations research 
+E: Advanced operations research 
+Electives 
+D: Contemporary managerial issues 
+Management of the company’s performance 
+Engineering of complex systems 
+Environmental energy: issues and strategies 
+Algorithms and machine learning 
+F: AI and constraint programing 
+Logisitic chain design 
+G: Transport 
+Implementation case: Decision, Optimisation and Responsability 
+H: Planification and sequencing 
+I, J, K:  free choice of course 
+Contact: gilles.simonin@imt-atlantique.fr 
+CYBER – CYBERSECURITY (4+3) 
+Core 
+A: Networks basis 
+B: Networks Cybersecurity 
+C: Systems Cybersecurity 
+E: Evaluation, Analysis and Security certification 
+Electives 
+D: System security architecture 
+E: Core course 
+F: Cyber in specific environment 
+Web applications and Databases Cybersecurity 
+G: free choice of course 
+H: Data protection 
+I, J, K: free choice of course 
+Contact: nora.cuppens@imt-atlantique.fr 
+DCL – COLLABORATIVE SOFTWARE DEVELOPMENT (4+3) 
+Core 
+A: Advanced methods for programing and software development 
+B: Developer’s econommic, organizational and legal envir onment 
+C: Sotware development engineering 
+E: Theoretical foundation of concurrent software devel opment 
+Electives 
+D: Contemporary managerial issues (N) 
+Management of the company’s performance (N) 
+Engineering of complex systems (N) 
+Environmental energy: issues and strategies (N) 
+Algorithms and machine learning (N) 
+F: Principles of computer networks through practise(B ) 
+Aspects of wide scale development (N) 
+G: Web applications engineering (B) 
+Programing robotic systems (B) 
+Big data: collect, process and operate large amounts of data (N)
+H: Cryptography and its applications  (B) 
+Apps development on mobile devices (B) 
+High performance computing (N)
+I: « Userland » operating systems – service-oriented arc hitectures and system programing (B) 
+Web applications engineering (N) 
+J: Languages and logics (B) 
+Logical architecture and component based programing (N) 
+K: Algorithms design and analysis (B) 
+Man-machine interaction – user experience (N) 
+Certified programing (N) Contacts: 
+fabien.dagnat@imt-atlantique.fr 
+herve.grall@imt-atlantique.fr 
+DIGIC – DIGITALISATION, INNOVATION AND CHANGES (3+3)
+Core 
+A: Introduction to machine learning 
+B: Innovative society 
+C: Digital strategies 
+Électives 
+D: free choice of course 
+E: Decoding a market 
+Company architecture and Information systems urbanisation 
+F:  Assessment of user experience 
+Digital marketing and Customer Relationship Management (CRM) 
+Innovation Ecosystem 
+G: Company architecture and Information systems urban isation 
+Business Engineer 
+Decision-making 
+H: Business Intelligence 
+Change management 
+I: Graph Theory and social networks analysis 
+Change management 
+J: Storytelling Dataviz 
+Steering tools for company management 
+K: Game theory and agent based modeling 
+Digital marketing and CRM 
+Contact: bernard.gourvennec@imt-atlantique.fr 
+This TAF is very popular. 
+Unfortunately there are no more 
+places available this year 
+DS – DATA SCIENCE: FROM DATA TO DECISION-MAKER (3+4) 
+Core 
+A: Introduction to machine learning 
+B: A journey to data scientist 1
+C: A journey to data scientist 2
+Electives 
+D: Statistics and Statistical Analysis Systems (SAS) 
+Advanced C++ programing 
+Deep learning 
+E: Big Data & Cloud computing 
+F: Advanced data mining 
+Data mining cases deployment 
+G: Decision-making 
+Market finance 
+Language processing and text mining 
+AI algorithms optimisation 
+H: Business Intelligence 
+Advanced Big Data architecture 
+Introduction to AI 
+I: Data sciences 
+Graph theory & social network Analysis 
+Advanced C++ programing 
+J: Learning analytics & learners follow-up 
+Introduction to AI 
+K: Game theory & agent based modeling 
+Digital marketing 
+Contact: cecile.bothorel@imt-atlantique.fr 
+This TAF is very popular. 
+Unfortunately there are no more 
+places available this year 
+DEMIN – NUCLEAR ENGINEERING(4+3) 
+Core 
+A: Nuclear physics 
+B: Fuel cycle 
+C: Nuclear reactors operation 
+G: Radio protection 
+Electives 
+D: Contemporary managerial issues (N) 
+Management of the company’s performance (N) 
+Engineering of complex systems (N) 
+Environmental energy: issues and strategies (N) 
+Algorithms and machine learning (N) 
+E: Economy of energy 
+Fusion, GEN IV, Propulsion 
+F: Monte Carlo modeling in nuclear physics 
+H:  Management of complex projects in the nuclear fiel d 
+I, J, K:  free choice of course 
+Contact: julie.champion@imt-atlantique.fr 
+HEALTH – HEALTHCARE ENGINEERING (3+3) 
+Core 
+A: Anatomy & physiology for the design of medical devic es & sensors 
+B: The digital patient 
+C: Health management: Information System organization
+Electives 
+D: free choice of course 
+E: Computer-aided medical interventions 
+Economy and health law 
+F: Principles of physics, system architecture, train ing and medical 
+image processing 
+G: Connected medical devices 
+Dosimetry 
+Health information system, standards and security 
+H: Analysis of health data: epidemiology and decision- making 
+From the radioisotope to the radiopharmaceutical 
+I, J, K: free choice of course 
+Contacts: 
+chafia.hamitouche@imt-atlantique.fr 
+vincent.metivier@imt-atlantique.fr 
+IHM – MAN MACHINE INTERACTION (MMI) 
+AND COLLABORATIVE SYSTEMS (4+3) 
+Core 
+A: Software engineering for MMIs and collaboration 
+B: Cognitive ergonomy for interaction 
+C: Social, legal and ergonomy principles of work within a  collaborative 
+network 
+D: Advanced methods for programing and software develo pment 
+Electives 
+E: Augmented reality 
+F: User experience evaluation 
+IoT Intelligence, social web and semantic 
+G: Collaborative virtual reality 
+Web Apps engineering 
+Language processing and data mining 
+H: Mobile Devices Developpment 
+I, J, K: free choice of course 
+Contact: thierry.duval@imt-atlantique.fr 
+IOT – INTERNET OF THINGS FOR THE INDUSTRY 4.0 (3+3) 
+Core 
+A: Developing and deploying applications in the cloud 
+B: Information transport protocols 
+C: New economy models and digital law 
+Electives 
+D: Security architecture of systems 
+Mobile networks 
+E: Wireless networks for IoT devices 
+Industrial networks 
+F: Distribution radio networks 
+G: Cyber-security in specified environments 
+H: Smart cities and transports 
+I: Computer networks basis 
+Mobile networks 
+J: Standardisation 
+K: Literature review project 
+Contact: laurent.toutain@imt-atlantique.fr 
+ISC – COMMUNICATION SYSTEMS ENGINEERING (3+3) 
+Core 
+A: Physical channels of communication 
+B: Digital communications 
+C: Transmission systems architecture and engineering 
+Electives 
+D: Error correction coding 
+Radio technologies 
+E: Receivers for digital communications: from princip les to implementation 
+Data and applications security 
+F: Optical technologies 
+Computer networks through practise 
+G: Mobile networks 
+Data compression: from source coding to virtual reality 
+H: Optical networks 
+I,J: Fee choice of course 
+K: Electronic integration: from the algorithm to the p rototype 
+Contact: karine.amis@imt-atlantique.fr 
+MCE – MATHEMATICAL & COMPUTATIONAL ENGINEERING (3+3) 
+Core 
+A: Introduction to machine learning 
+B: Stochastic modelling and analysis 
+C: Numerical methods 
+Electives 
+D: Advanced C++ programing 
+Deep learning 
+E: Stochastic Dynamic Models 
+Big data & cloud computing 
+F: Statistical learning & sparse representations 
+Empirical finance 
+Computational Imaging 
+Deployment of data mining true cases 
+G: Markov chains & applications 
+Market finance 
+Computer vision 
+H: Portfolio management & trading algorithms 
+Projects on recent advances in machine learning 
+I: Artificial intelligence 
+J: Projects on recent advances in machine learning 
+K: Game theory and agent based modeling 
+Contact: abdeldjalil.aissaelbey@imt-atlantique.fr 
+This TAF is very popular. 
+Unfortunately there are no more 
+places available this year 
+MPR – PERFORMANCES AND RISK MANAGEMENT (4+3) 
+Core 
+A: Performance management 
+B: Risks management 
+C: Risks in change management 
+E: Uncertain optimisation 
+Electives 
+D: Contemporary managerial questions 
+Company performance management 
+Complex systems engineering 
+Environment energy: issues and strategies 
+Algorithms and automatic learning 
+F: Operational effectiveness 
+Conception risk and performance 
+G: Maintenance in operational readiness 
+Economic performance 
+H: Performance assessment 
+Innovation, a risky approach 
+I, J, K: free choice of course 
+Contact: guillaume.massonnet@imt-atlantique.fr 
+PNUM – DIGITAL PLATFORMS: TECHNOLOGIES AND MARKETS (3 +3) 
+Core 
+A: Network basis 
+B: Cloud platforms 
+C: Networks and platforms regulations 
+Electives 
+D: Digital networks 
+E: Economy et platforms 
+F: Developing and deploying applications in the cloud
+Blockchain et consensus: co-operation in digital platforms 
+G: Building a technico-commercial answer to an inter national call for 
+tender 
+H: Networks virtualisation 
+I:     Networks basics (Msc)
+Mobile Networks 
+J: Contents dissemination architectures 
+K: Service architecture for the Internet 
+Contact: patrick.maille@imt-atlantique.fr 
+OPE – ENVIRONMENT OBSERVATION (3+4) 
+Core 
+A: Physics of wave propagation and sensors 
+B: Hardware architecture and sensors networks 
+C: Observation and perception systems engineering 
+Electives 
+D: Radio technologies 
+Acoustic systems: architectures and scales 
+E: Software radio: architecture and applications 
+Big data & Cloud computing 
+F: Electronic integration– from the algorithm to the pr ototype 
+Computational imaging 
+G: Robotic systems programing 
+Computer vision 
+H: 2D and 3D artificial vision technology 
+Machine learning and multi-sensors database advanced processing 
+I+J: Project JANUS (CNES): Multi-academic partners pr oject for a CubeSat conception 
+K: Free choice of course 
+Contact: francois.gallee@imt-atlantique.fr 
+ROBIN – ROBOTICS AND INTERACTIONS (4+3) 
+Core 
+A: Robots modelling 
+B: Robots control 
+C: Innovation and robotisation 
+F: Software architecture for robotics 
+Electives 
+D: Contemporary managerial questions 
+Company performance management 
+Complex systems engineering 
+Environment energy: issues and strategies 
+Algorithms and automatic learning 
+E: Prototyping a robotic system 
+G: Bio-inspired robotics 
+Embedded systems 
+H: Cobotics and haptics 
+Distributed and real-time information systems 
+I, J, K:   Free choice of course 
+Contact: vincent.lebastard@imt-atlantique.fr 
+SEH – HETEROGENOUS EMBEDDED SYSTEMS (3+3) 
+Core 
+A: Digital and analogical integrated circuits 
+B: Methodologies: from the algorithm to the chip 
+C: Embedded systems: hardware-software interaction 
+Electives 
+D: Advanced methods for programing and software develo pment 
+Radiofrequencies technologies and devices 
+E: Seminar: Integrated circuits and systems concepti on (Grenoble) 
+Software radio: architecture and applications 
+F: Circuits high level conception 
+New techniques and uses of visualization and interactive display 
+G: AI – optimized implementations 
+Connected medical devices 
+Web applications engineering 
+H:  AI– introduction 
+I: Energies and sensors 
+J:  AI– introduction 
+K: Electronics integration– from the algorithm to the prototype 
+Contact: amer.baghdadi@imt-atlantique.fr 
+TEE – ENVIRONMENTAL AND ENERGY TURNAROUND (4+3) 
+Core 
+A: Environmental and energy issues 
+B: Energy grids 
+C: Strategic and socio-technical analysis of energy and  environmental issues 
+E: Energy and environment risks and management 
+Electives 
+D: Contemporary managerial questions 
+Company performance management 
+Complex systems engineering 
+Algorithms and automatic learning 
+F: Renewable energy production sectors 
+Building energy performances 
+Machines energy 
+G: Energy recovery and waste-to-energy and biomass proc esses 
+Building environmental performances 
+Energy systems and cycles 
+H: Environmental assessment 
+Sustainable cities and territories 
+Innovative low-carbon generation technologies 
+I, J, K: Free choice of course 
+Contact: aurelie.joubert@imt-atlantique.fr 
+Other UE outside the TAFs 
+D slot 
+UE entrepreneurship 
+UE research

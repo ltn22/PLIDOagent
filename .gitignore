@@ -5,3 +5,4 @@
 memory/
 data/
 .playwright-mcp/
+documents/*.txt

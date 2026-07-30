@@ -1,0 +1,865 @@
+SOURCE: https://www.imt-atlantique.fr/sites/default/files/document/IMT%20Atlantique_diplome%20ingenieur_22-23.pdf
+
+13/04/202 2 1
+TITRE DE LA PRÉSENTATION - MENU 
+« INSERTION / EN-TÊTE ET PIED DE PA GE »
+IMT Atlantique
+GRADUATE ENGINEERING SCHOOL
+FRANCE
+ 
+www.imt-atlantique.fr
+Master of Science in Engineering
+Diplôme d’Ingénieur généraliste
+ IMT Atlantique
+ 
+
+FIELDS OF STUDIES
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste3
+ Healthcare engineering : assisted surgery technologies, medical imaging, diagnostic 
+assistance or even tattooing of medical data
+ Energy, nuclear and environmental engineering : process engineering, energy 
+systems, eco-design, nuclear physics, radiochemistry, neutronics or safety
+ Computer science and networks : big data, applied mathematics, software 
+engineering, cybersecurity, artificial intelligence or cloud computing
+ Industrial engineering and organizations : industrial performance, digital business 
+models, production management, logistics optimization and digital transformation 
+management
+ Electrical engineering / robotics, electronics, automation, telecommunication and 
+embedded systems:  human-computer interaction, communication systems, 
+connected objects, space and maritime surveillance, etc.
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste
+FIELDS OF STUDIES
+4
+5
+students have to choose 
+in years 2 and 3 one 
+major (TAF) per year
+Curriculum
+A COMMON CORE PROGRAM
+• courses 
+• internships 
+• projects
+• inter-semester activities
+• 2 foreign languages
+• career coaching
+• sport
+A PERSONALIZED STUDY 
+PROGRAM
++
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste5
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste
+PROGRAM STRUCTURE
+6
+
+YEAR 1 – Common core in Engineering – semesters 1 and  2
+-  A broad spectrum of disciplines and cross-disciplinary skills
+ Networks/Computer Science
+ Electronics 
+ Mathematics, Signal Processing & Automation
+ Economics & Social Sciences
+ Physics 
+ Network based systems
+ Sustainability
+ 1 internship
+ 2 languages
+ 2 projects
+ 1 intersemester course
+ sport
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste7
+YEARS 2 & 3
+2 majors = TAFs (Thématiques 
+d’approfondissement)
+ one per year
+ to be chosen among +20
+ TAFs are formed by core courses and 
+elective courses
+1 project per semester
+2 foreign languages
+1 intersemester course per year
+1 internship per year
+Sport activities
+Career coaching sessions
+Optional Gap year in industry (between 
+semesters 4 and 5)
+Semester 3: Major 1 (TAF)
+Semester 5: TAF 2
+Semester 6: TAF 2 + final 
+internship
+Master
+Bachelor
+level
+Year 3Year 2
+Intersemester
+Semester 3: TAF 1
+Semester 4: TAF 1 + internship
+Intersemester
+Double degree students
+(2 years) 
+Exchange students
+(1 semester or 1 year) 
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste8
+1st year: 1 month, first working experience
+2nd year, 2 possibilities:
+• 2 months, to acquire skills
+• 4 months, to develop skills
+Engineering, development, project management, research, entrepreneurship…
+3rd year: 4 to 6 months, end-of-studies internship
+Using scientific knowledge, management and technical competences and human 
+qualities to solve complex problems with a strong technological and/or organizational 
+component
+Internships longer than 2 months are paid in France
+Our students get at least 1000€/month for the end-of-studies internship in companies
+Students can be hired by companies during the last year of the program under a 
+combined work-study contract
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste
+INTERNSHIPS
+9
+Master of Science in Engineering
+Diplôme d’Ingénieur généraliste
+ IMT Atlantique
+Majors 
+Thématiques d’approfondissement –TAFs
+(courses mostly taught in French)
+Diplôme d’Ingénieur généraliste IMT Atlantique
+MAJORS (TAFS) OFFERED IN 2022
+COMPUTER SCIENCE AND NETWORK
+ IoT, IoT for industry 4.0 (R)
+ CoOC, Design of communicating objects (B)
+ Cyber, Cybersecurity (R )
+ DaSci, Data Science (B)
+ DCL, Collaborative software development  (BN)
+ DigIC, Digitalisation, innovation and changes (B)
+ IHM, HMI & collaborative systems (B)
+ ILSD *, Software engineering of distributed systems (B)
+ LOGIN *, Software engineering and innovation (N)
+ MCE, Mathematical and computational engineering (B)
+ PNum, Digital platforms: technologies and markets (R)
+ELECTRICAL ENGINEERING
+ ISC, Communications Systems Engineering (B)
+ OPE, Observation and perception of the environment (B)
+ SEH, Embedded and heterogeneous systems (B)
+ Robin, Robotics and interactions (N)
+ENERGY , NUCLEAR AND ENVIRONMENT
+ DEMIN, Development and management of nuclear 
+facilities  (N)
+ DEMIN *, Development and management of nuclear 
+facilities  (N)
+ TEE, Energy and environmental transitions  (N)
+ TEE *, Energy and environmental transitions  (N)
+HEALTHCARE ENGINEERING
+ HEALTH, Healthcare Engineering (BN)
+INDUSTRIAL ENGINEERING
+ ASCy, Automation and cyber-physical systems (N)
+ COPSI, Design, Optimization and Control of Industrial 
+Systems (N)
+ MPR, Risk and return management (N)
+ NeMO, Digital and organizational management 
+B: Brest
+N: Nantes
+R:  Rennes
+BN: multi-location organization
+* Offered only in third year
+ 11
+There are 8 course-slots (rated from A to H) in all the TAFs plus one 
+optional track from April to May to be chosen between “Space technologies 
+and applications” (Brest),  “Machine learning and applications” (Brest) or 
+“Internet of Things” (Rennes)
+Each course (UE) chosen by the student must be from a different course-
+slot
+   
+To validate a TAF students must pass at least 7 courses (UE) 
+out of 8 including:
+ All the core courses (UE Coeur) of the TAF: A, B and C, which are 
+mandatory 
+ Elective courses (UE Electives) of the TAF 
+ Free courses (UE libres):  students can take other UEs from the same 
+course-slots in other TAFs
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste
+CHOICE OF COURSES
+ 12
+Master of Science in Engineering / Diplôme d’Ingénieur IMT Atlantique
+Activities Credits
+1 UE (scientific modules) 4 ECTS
+1 language course 2 ECTS per semester (16 weeks)
+Sport activities 1 ECTS per semester
+1 project 4 ECTS per semester
+Career coaching sessions 1 ECTS per semester
+2-month internship 8 ECTS
+4-month internship 16 ECTS
+6-month internship 24 ECTS
+Intersemester course 1 ECTS
+Optional track (April-May) 15 ECTS
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste
+NUMBER OF CREDITS
+13
+Master of Science in Engineering / Diplôme d’Ingénieur généraliste
+YEAR 2 or 3 – PROGRAM SCHEDULE
+Autumn
+September  1 course in Economics and Human and Social Sciences
+October-
+January
+ 3 or 4 core courses (according to the TAF), called UE cœur 
+ 1 or 2 specialized courses, called UE électives, to be chosen from « D » or « E » slots
+January  1 intersemester course
+Spring
+February-
+March
+ Up to 3 electives , to be chosen from « F », « G » or « H » slots
+April-May One optional track including 3 scientific courses, 1 project, 
+scientific English and sport (optional)
+June-July  2 month-internship (year 2)
+or
+4 month-internship (year 2)
+(April-July)
+6 month-internship (year 3)
+(April-September, for degree 
+students only
+    1 project     2 languages
+     career coaching sessions     sport
+   1 project     2 languages
+    career coaching sessions     sport
+ 14
+GENERAL SCHEDULING 15
+
+HOW TO READ THE FOLLOWING SLIDES 
+Acronym and title (number of UE cœur + number of UE électives to 
+be passed in order to validate the TAF)
+UE Cœur: core courses
+UE Électives: specialized courses
+UE Libres: elective courses to be chosen from a different TAF
+Schedule of UEs:
+A, B, C, D: September - December
+E: January
+F, G, H: February, March
+Optional track: April, May
+16
+ASCY – AUTOMATION AND CYBER-PHYSICAL SYSTEMS (4+3)
+Core 
+A: Modeling, analysis and simulation of mechatronic systems 
+B: From perception to action: robust control of dynamic systems
+C: Control and estimation of dynamic systems : the state-space approach
+F: Digital Implementation of dynamic systems for signal processing, control or diagnostic
+Electives
+D:    Data Structures and complexity
+        C/C++ programming
+        Algorithms and Machine learning 
+E: Prototyping of robotic systems
+G: Multivariable control methodology
+Embedded systems 
+H: Intelligent Transportation Systems
+Cyber-physical systems optimization
+Real time and distributed information systems
+April-May Optional track (Brest or Rennes campus)
+Course Director: Fabien Claveau, fabien.claveau@imt-atlantique.fr
+Nantes campus
+17
+COOC – COMMUNICATING OBJECTS DESIGN (3+3)
+Core
+A: User centered design
+B: Rapid prototyping and agile development
+C: The object in its environment
+Electives
+D: Advanced methods of programming and software development
+         Principles of computer networks 
+E: Software radio
+Decrypting a market 
+F: Assessment of user experience
+         Electronic design: from the algorithm to the proof of concept
+          Apps development on mobile devices
+New techniques and uses of visualisation and interactive display
+G: Web applications Engineering
+Connected medical devices
+H: Introduction to AI
+Design of smart integrated sensors
+April-May Optional track (Brest or Rennes campus)
+Course Directors: Charlotte Langlais, charlotte.langlais@imt-atlantique.fr
+Annabelle Boutet-Dieye, annabelle.boutet@imt-atlantique.fr
+Brest campus
+18
+COPSI – DESIGN, OPTIMIZATION & CONTROL OF 
+INDUSTRIAL SYSTEMS (4+3)
+Core
+A: Operation management
+B: Discrete modelling in O.R. and C.P.
+C: Tools for optimisation using exact algorithms
+E: Heuristic methods in O.R.
+Electives
+D:    Algorithm and Machine Learning
+        Models and Simulation of Complex Systems 
+F: AI and constraint programming
+Logistic chain design
+G: Transport
+Implementation case: decision, optimisation and responsibility
+H: Planification and scheduling
+April-May Optional track (Brest or Rennes campus)
+Course Director: Gilles Simonin, gilles.simonin@imt-atlantique.fr
+Nantes campus
+19
+CYBER – CYBERSECURITY (4+3)
+Course Directors: Ahmed Bouabdallah & Guillaume Doyen
+ahmed.bouabdallah@imt-atlantique.fr
+guillaume.doyen@imt-atlantique.fr
+Rennes campus
+20
+Core
+A: An introduction to DevOps: developing and deploying Cloud native applications 
+B: Networks cybersecurity 
+C: Operating system security
+E: Cybersecurity law and policies
+Electives
+D: System security architecture
+        Introduction to the cryptography
+F: Security of IoT and embedded device
+        Blockchain and consensus : cooperation in distributed systems
+        Advanced cryptology and data protection
+G: Security monitoring
+H: Application security
+April-May Optional track (Brest or Rennes campus)
+DCL – COLLABORATIVE SOFTWARE DEVELOPMENT (4+3)
+Core
+A: Advanced methods for programming and software development 
+B: Developer’s economic, organizational and legal environment
+C: Software development engineering
+E: Theoretical foundation of concurrent software development
+Electives
+April-May Optional track (Brest or Rennes campus)
+Course Directors: Fabien Dagnat (Brest) & Théo Le Calvar (Nantes) 
+fabien.dagnat@imt-atlantique.fr       theo.le-calvar@imt-atlantique.fr
+Brest or Nantes campus
+21
+Brest Nantes
+D Advanced C++ programming 
+Principles of computer networks 
+Data Structures and complexity
+C/C++ programming
+F Principles of computer networks
+Language and logics
+Apps development on mobile devices
+Aspects of large-scale software development 
+G Programming robotic systems
+Web applications engineering 
+Big data: collect, process, and use large-data sets
+Web applications engineering 
+H Cryptography and its applications Human machine interaction
+DEMIN – NUCLEAR ENGINEERING (4+3)
+Core
+A: Nuclear physics
+B: Fuel cycle
+C: Nuclear reactors operation
+G: Radioprotection
+Electives
+D: Decommissioning of nuclear intallations
+        Energy Economy
+E: Fusion, GEN IV, Propulsion
+F: Monte Carlo modeling in nuclear physics
+H:  Management of complex projects in the nuclear field
+April-May Optional track (Brest or Rennes campus)
+Course Director: Julie Champion, julie.champion@imt-atlantique.fr
+Nantes campus
+22
+DEMIN – NUCLEAR ENGINEERING (2+4) *
+* OFFERED ONLY IN THIRD YEAR – PREREQUISITE: TAF DEMIN OR EQUIVALENT
+Core
+A: Safety
+F: Human and organizational factors of safety
+Electives
+B: Thermohydraulics
+Instrumentation and particle detection 
+C: Neutronics
+Study and simulation of the detection of ionising radiation
+D: Decommissioning of nuclear intallations
+        Energy Economy
+E: Waste management and storage
+Fusion, Gen(IV), Propulsion
+G: Reactor operation in accident mode
+Technological challenges for research and industry
+H: Materials for the nuclear industry
+Simulation tools for conception
+April-May Optional track (Brest or Rennes campus)
+Course Director: Julie Champion, julie.champion@imt-atlantique.fr
+Nantes campus
+23
+DIGIC – DIGITALISATION, INNOVATION AND CHANGES (3+3)
+Core
+A: Introduction to machine learning
+B: Innovative society
+C: Digital strategies
+Electives
+D: The sharing economy
+         Introduction to research in social and human sciences
+E: Business Engineer
+         The dark side of digital
+Company architecture and Information systems urbanisation
+F:  Assessment of user experience
+E-business
+G: Company architecture and Information systems urbanisation
+         Change management
+Decision-making
+H: Business Intelligence 
+         Decoding a market
+         Introduction to geopolitics
+April-May Optional track (Brest or Rennes campus)
+Course Director: Myriam Le Goff & Virginie Lethiais
+myriam.legoff@imt-atlantique.fr virginie.lethiais@imt-atlantique.fr
+Brest campus
+This TAF is very popular 
+among our students. 
+It may not be available to 
+incoming students next year.
+24
+DASCI – DATA SCIENCE: FROM DATA TO DECISION-MAKER (3+4)
+Core
+A: Introduction to machine learning
+B: A journey to data scientist 1
+C: A journey to data scientist 2
+Electives
+D: Statistics and Statistical Analysis Systems (SAS)
+Advanced C++ programming
+Deep learning
+E: Big Data & Cloud computing
+         How to lie with statistics
+         Data visualization and storytelling
+F: Advanced data mining 
+Data mining cases deployment 
+G: Decision-making
+Language processing and text mining
+Efficient deep learning 
+H: Business Intelligence
+Advanced Big Data architecture 
+         Advanced C++ programming
+April-May Optional track (Brest or Rennes campus)
+Course Director: Cécile Bothorel & Laurent Lecornu,
+ cecile.bothorel@imt-atlantique.fr laurent.lecornu@imt-atlantique.fr
+Brest campus
+This TAF is very popular 
+among our students. 
+It may not be available to 
+incoming students next year.
+25
+HEALTH – HEALTHCARE ENGINEERING (3+3)
+Core
+A: Medical devices & sensors
+B: The digital patient
+C: Health management: Information system organization
+Electives
+D: Anatomy & physiology for the design of medical devices
+E: Computer-aided medical interventions
+Economy and health law
+        From the radioisotope to the radiopharmaceutical (N)
+F: Principles of physics, system architecture, training and medical image processing
+G: Connected medical devices
+H: Analysis of health data: epidemiology and decision-making
+April-May Optional track (Brest or Rennes campus)
+Course Directors: Chafia Hamitouche, Myriam Le Goff & Vincent Métivier 
+chafia.hamitouche@imt-atlantique.fr myriam.legoff@imt-atlantique.fr 
+vincent.metivier@imt-atlantique.fr
+Brest campus 
+Possibility of going for one or 
+three months to Nantes Campus 
+to explore nuclear medicine
+26
+Nuclear medicine course
+ in Nantes
+Monte Carlo modeling in nuclear physics (F)
+Radioprotection (G)
+Management of complex projects (H)
+IHM – HUMAN MACHINE INTERACTION (HMI)  (4+3)
+Core
+A: Software engineering for HMI
+B: Cognitive ergonomy for interaction
+C: Techniques and challenges of virtual reality
+Electives
+D: Advanced methods for programming and software development
+       Advanced C++
+E: Augmented reality
+F: Assessment of user experience
+        Apps development on mobile devices 
+G: Collaborative virtual reality
+Natural anguage processing and data mining
+H:  Web Apps engineering
+April-May Optional track (Brest or Rennes campus)
+Course Director: Cédric Fleury &Thierry Duval, 
+cedric.fleury@imt-atlantique.fr thierry.duval@imt-atlantique.fr
+Brest campus
+27
+ILSD – SOFTWARE ENGINEERING OF DISTRIBUTED SYSTEMS (4+3) *
+* OFFERED ONLY IN THIRD YEAR
+Core
+A: High-Performance Computing: distribution of data and calculations 
+B: Reliability and confidence in distributed systems
+C: Mathematical tools for the analysis of distributed systems
+E: Design and implementation of a distributed application
+Electives
+D: Principles of computer networks 
+F: Principles of computer networks
+G: Architecture of an urbanized information system 
+H: Parallel computing
+Big data architecture and hadoop tools
+       Distributed systems and human-centric services
+April-May Optional track (Brest or Rennes campus)
+Course Director: Antoine Beugnard, antoine.beugnard@imt-atlantique.fr
+  
+Brest campus
+28
+IOT – INTERNET OF THINGS FOR THE INDUSTRY 4.0 (3+3)
+Core
+A: Developing and deploying applications in the cloud
+B: Information transport protocols
+C: New economy models and digital law
+Electives
+D: Introduction to the cryptography 
+Mobile networks
+       Operating systems
+E: Wireless networks for IoT devices / Industrial networks
+F: Security of IoT and embedded device
+G: Long-range radio access networks
+H: Smart cities and transports
+April-May Optional track (Brest or Rennes campus)
+Course Director: Laurent Toutain & Xavier Lagrange,
+ laurent.toutain@imt-atlantique.fr xavier.lagrange@imt-atlantique.fr
+Taught in English on 
+Rennes campus
+29
+ISC – COMMUNICATION SYSTEMS ENGINEERING (3+3)
+Core
+A: Physical channels of communication
+B: Digital communications
+C: Transmission systems architecture and engineering
+Electives
+D:  Error correction coding
+ Radio technologies
+E: Receivers for digital communications: from principles to implementation
+       Optical technologies
+F: Electronic design: from the algorithm to the proof of concept
+       Principles of computer networks
+G: Mobile networks
+Data compression: from source coding to virtual reality
+H: Optical networks
+        Physical Layer Security
+April-May Optional track (Brest or Rennes campus)
+Course Director: Karine Amis & Michel Morvan, 
+karine.amis@imt-atlantique.fr michel.morvan@imt-atlantique.fr
+Brest campus
+30
+LOGIN – SOFTWARE ENGINEERING AND INNOVATION (4+3) *
+* OFFERED ONLY IN THIRD YEAR
+Core
+A: Introduction to functional and logic programming
+B: Polyglot programming
+C: From services to micro-services deployed in containers
+E: Hackathon
+Electives
+D: Algorithm and Machine Learning
+F: Development of an operating system
+G: Cloud: infrastructure and platforms
+H: Compilation and interpretation
+April-May Optional track (Brest or Rennes campus)
+Course Director: Hélène Coullon, helene.coullon@imt-atlantique.fr
+Nantes campus
+31
+MCE – MATHEMATICAL & COMPUTATIONAL ENGINEERING (3+3)
+Core
+A: Introduction to machine learning
+B: Stochastic modeling and analysis
+C: Numerical methods
+Electives
+D: Advanced C++ programming
+Deep learning
+E: Stochastic dynamic models 
+Big data & cloud computing
+         Statiscal inference in complex networks
+F: Statistical learning & sparse representations 
+Computational imaging
+G: Markov chains & applications
+Computer vision
+H: Projects on recent advances in machine learning
+          Advanced optimization methods for AI
+          Advanced C++ programming
+April-May Optional track (Brest campus)
+Course Director: Dominique Pastor, dominique.pastor@imt-atlantique.fr
+Taught in English 
+on Brest campus
+This TAF is very popular 
+among our students. 
+It may not be available to 
+incoming students next year.
+32
+MPR – PERFORMANCES AND RISK MANAGEMENT (4+3)
+Core
+A: Performance management
+B: Risks analysis and control
+C: Change in organizations
+E: Uncertain optimization
+Electives
+D:    Algorithm and Machine Learning
+        Models and Simulation of Complex Systems
+        Management of the company’s performance
+F: Operational effectiveness
+        Performance assessment
+G: Conception risk and performance
+Economic performance
+H: Maintenance in operational readiness
+Innovation, a risky approach
+April-May Optional track (Brest or Rennes campus)
+Course Director: Guillaume Massonnet, guillaume.massonnet@imt-atlantique.fr
+Nantes campus
+33
+NEMO – DIGITAL AND ORGANIZATIONAL MANAGEMENT (4+3)
+Core
+A: Information systems for digital transformation
+B: Digital, strategy and organization
+C: IS project management
+E: Organizational performance management
+Electives
+D:    Management of the company’s performance
+      Innovation and Strategy
+        Contemporary managerial issues
+F: Innovative technologies and transformation
+G: Enterprise systems
+H: Design and use of decision-making tools
+April-May Optional track (Brest or Rennes campus)
+Course Director: François Deltour, francois.deltour@imt-atlantique.fr
+Campus de Nantes
+34
+PNUM – DIGITAL PLATFORMS: TECHNOLOGIES AND MARKETS  (4+3)
+Core
+A: Network basis
+B: Cloud platforms
+C: Networks and platforms regulations
+E: Economy and platforms
+Electives
+D: Digital networks
+       Introduction to cryptology
+       Operating systems
+F:    Blockchain et consensus: co-operation in digital platforms
+       Internet services’architecture
+G: Building a technico-commercial answer to an international call for tenders
+       Developing and deploying applications in the cloud
+H: Networks virtualisation
+       Applications security
+April-May Optional track (Brest or Rennes campus)
+Course Director: Patrick Maille, patrick.maille@imt-atlantique.fr
+Rennes campus
+35
+OPE – ENVIRONMENT OBSERVATION (3+4)
+Core
+A: Physics of wave propagation and sensors
+B: Hardware architecture and sensors networks 
+C: Observation and perception systems engineering
+Electives 
+D: Radio technologies
+Data Science and Information Processing for sensor data
+E: Software radio: architectures and applications
+       Numerical Tour of image processing for denoising
+F: Electronic integration: from the algorithm to the proof of concept
+       Analogical and digital signal processing for sensor data
+G: Robotic systems programming
+        Connected medical devices
+       Multimodal processing and analysis  
+H: 2D and 3D artificial vision technology
+       Sustainable data processing
+       Design of smart integrated sensors
+April-May Optional track (Brest or Rennes campus)
+Course Director: François Gallée & Christophe Sintès
+ francois.gallee@imt-atlantique.fr christophe.sintes@imt-atlantique.fr
+Brest campus
+36
+ROBIN – ROBOTICS AND INTERACTIONS (4+3)
+Core
+A: Robots modelling
+B: Robots control
+C: Innovation and robotisation
+F: Software architecture for robotics
+Electives
+D:    Data Structures and complexity
+        C/C++ programming
+        Algorithms and Machine learning         
+E: Prototyping a robotic system
+G: Bio-inspired robotics
+Embedded systems
+H: Cobotics and haptics
+Distributed and real-time information systems
+April-May Optional track (Brest or Rennes campus)
+Course Director: Vincent Lebastard, vincent.lebastard@imt-atlantique.fr
+Nantes campus
+37
+SEH – EMBEDDED AND HETEROGENOUS SYSTEMS (3+3)
+Core
+A: Embedded systems:  from sensor to intelligent processing 
+B: Methodologies: from the algorithm to the chip
+C: Embedded systems: hardware-software interaction
+Electives
+D: Advanced methods for programming and software development
+Radio technologies 
+E: Workshop in Grenoble: research and industry of micro and nanotechnologies  
+Software radio: architectures and applications
+F: Circuits high level conception
+New techniques and uses of visualization and interactive display
+G: Efficient Deep Learning
+Connected medical devices
+Web applications engineering
+H:  AI – introduction
+       Parallel computing
+April-May Optional track (Brest  or Rennes campus)
+Course Director: Amer Baghdadi, amer.baghdadi@imt-atlantique.fr
+Brest campus
+38
+TEE – ENVIRONMENTAL AND ENERGY TRANSITION (4+3)
+Core
+A: Energy and environmental challenges
+B: Energy networks
+C: Strategic and socio-technical analysis of energy and environmental issues 
+E: Risk and management of energy and environment
+Electives
+D:   Decommissioning of nuclear intallations
+      Energy Economy
+Course Directors: Pierrick Haurant & Audrey Villot
+pierrick.haurant@imt-atlantique.fr
+audrey.villot@imt-atlantique.fr
+April-May Optional track (Brest or Rennes campus)
+39
+F:   Renewable Energy 
+Production Chain
+G:   Biomass and waste 
+valorization
+H:   Environmental assessment 
+F:    Energy efficiency of 
+buildings
+G:   Environmental building 
+performance
+H:   Sustainable cities and 
+territories
+F:    Energetics of thermal and 
+hydraulic machines
+G:   Thermodynamic cycles for 
+energy systems
+H:   Technologies for carbon-free 
+energy production
+or or
+TEE – ENVIRONMENTAL AND ENERGY TRANSITION (4+3) *
+* OFFERED ONLY IN THIRD YEAR – PREREQUISITE: TAF TEE
+Core
+A: Flow modeling
+B: Process engineering
+C: Energy and environmental economics
+E: Scientific methodology
+Electives
+D:   Decommissioning of nuclear intallations
+      Energy Economy
+Nantes campus
+April-May Optional track (Brest or Rennes campus)
+Course Directors: Pierrick Haurant & Audrey Villot
+pierrick.haurant@imt-atlantique.fr
+audrey.villot@imt-atlantique.fr
+40
+F:   Renewable Energy 
+Production Chain
+G:   Biomass and waste 
+valorization
+H:   Environmental 
+assessment 
+F:    Energy efficiency of 
+buildings
+G:   Environmental building 
+performance
+H:   Sustainable cities and 
+territories
+F:    Energetics of thermal 
+and hydraulic machines
+G:   Thermodynamic cycles 
+for energy systems
+H:   Technologies for 
+carbon-free energy 
+production
+F:    Dispersion of 
+pollutants
+G:   Modeling, simulation 
+and control of energy 
+systems
+H:   Energy integration
+or or or
+Other UE outside the TAFs
+D slot
+UE Innovative entrepreneurship
+UE research
+41
+OPTIONAL TRACK -  SPACE TECHNOLOGIES AND APPLICATIONS (BREST) 
+42
+Title content credits
+Space domain and its 
+environnement
+History, Economy, Space value chain
+Orbital mechanics, Location systems
+Earth Observation, Satellite communication
+4
+Technics and systems 
+applied to space
+Introduction to satellite and spacecraft architecture, IT architecture / 
+onboard management, 
+Mechanical, thermal, electrical architecture
+4
+Signal and satellite data 
+processing
+Remote sensing for Earth observation, GNSS data processing 
+Telecommunication signal processing
+4
+Project Flight physics 2
+Scientific English communication, highlighting courses through articles, blogs, etc. 1
+15 credits
+Prerequisites are 
+- knowledges in signal processing, 
+telecommunication
+OPTIONAL TRACK - MACHINE LEARNING AND APPLICATIONS (BREST)
+43
+Title content credits
+Efficient deep learning Study and implement different techniques to reduce the complexity of 
+deep neural networks
+4
+Topics in machine learning ML in cybersecurity
+Application fields in brain,  neuroscience, sea, biology, medical
+4
+Excellence in machine 
+learning
+Lectures by experts in the field on key subjects 2
+Project Project on recent advances in machine learning 4
+Scientific English communication, highlighting courses through articles, blogs, etc. 1
+Prerequisites are 
+- an introductory course in machine learning (if 
+not the introductory chapter of the free book 
+D2L.ai or Andrew NG's courses available on 
+youtube or coursera)
+- a good command of python programming
+15 credits
+OPTIONAL TRACK – INTERNET OF THINGS (RENNES)
+44
+Title content credits
+Smart Grid Understand the energy transition, the energy issue, and how to integrate 
+renewable energy into the energy production system.  
+Understand how the communication network is needed in tomorrow's 
+electricity network;  
+4
+Embedded OS The goal of this UE is to discover the basics of embedded operating systems 
+for the design of communicating objects. The module begins with a study of 
+constrained devices to understand their hardware architecture and identify 
+the various components. In a second step, different internal communication 
+buses are studied such as UART, I2C and SPI. The third part studies the 
+embedded operating system RIOT and allows to discover the hardware 
+APIs. These concepts are applied to an IEEE 802.15.4 networks and finally 
+the encryption aspects are implemented on the equipments.  
+4
+5G and evolutions This course contains a review of 4G networks with an analysis of the 
+performance of operational networks, a presentation of 5G networks with 
+particular emphasis on service-oriented interfaces and a perspective on 6G 
+networks. 
+4
+Project Free project to be defined by the student and the supervisor 2
+Prerequisites are 
+- knowledges in computer network architecture, 
+network protocols and radio propagation
+- C programming
+14 credits
+www.imt-atlantique.fr
+Thank you for your 
+attention
+Contact:
+mob-in@imt-atlantique.fr
