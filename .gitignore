@@ -6,3 +6,4 @@ memory/
 data/
 .playwright-mcp/
 documents/*.txt
+taf/
