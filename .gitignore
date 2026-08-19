@@ -6,4 +6,5 @@ memory/
 data/
 .playwright-mcp/
 documents/*.txt
+chroma_book_index/
 taf/
