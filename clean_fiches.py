@@ -7,10 +7,19 @@ Batch-cleans the raw PASS fiches in documents/taf/ into structured records
 responsable names) via an LLM, and caches the result to
 documents/taf/cleaned.json.
 
-Not a notebook cell: Gemini's free tier caps at 15 requests/minute, so ~275
-fiches take at least ~20 minutes even with perfect pacing -- too slow to run
-live in class, and nothing about it needs a human in the loop the way
-browse_pass.py's SSO login does. Run this once; the notebook loads the cache.
+Not a notebook cell: Gemini's free tier caps at 15 requests/minute (worse,
+500/day -- found that one the hard way), so ~275 fiches take at least ~20
+minutes even with perfect pacing, and can stall for a day on the daily cap.
+Nothing about it needs a human in the loop the way browse_pass.py's SSO
+login does. Run this once; the notebook loads the cache.
+
+--provider ollama swaps Gemini for a local model (qwen3:8b by default) via
+Ollama's own OpenAI-compatible endpoint -- same ChatOpenAI class Part 8's
+bonus already used for a hosted provider, just pointed at localhost instead.
+No quota at all, at the cost of your own machine's CPU/GPU for the whole
+run (qwen3:8b: ~30s/fiche, so the full batch runs a while) -- llama3.2
+(2GB) is fast but produced corrupted output on this schema, too small for
+a 6-field nested extraction on a long bilingual document.
 
 Deduplicates by UE code first: a handful of fiches were captured more than
 once (browse_pass.py followed a date-picker link that happened to reopen an
@@ -23,14 +32,14 @@ import re
 import time
 
 from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import BaseModel, Field
 
 load_dotenv(override=True)
 
 TAF_DIR = os.path.join("documents", "taf")
 CACHE_PATH = os.path.join(TAF_DIR, "cleaned.json")
-REQUESTS_PER_MINUTE = 12  # stay under Gemini free tier's 15 RPM cap
+REQUESTS_PER_MINUTE = 12  # stay under Gemini free tier's 15 RPM cap -- Ollama ignores this,
+                          # nothing external to protect there
 
 
 class Competency(BaseModel):
@@ -88,9 +97,18 @@ def deduplicated_files(files):
     return kept
 
 
-def main(limit=None):
-    llm = ChatGoogleGenerativeAI(model="gemini-flash-lite-latest", google_api_key=os.environ["GOOGLE_API_KEY"])
+def build_llm(provider):
+    if provider == "ollama":
+        from langchain_openai import ChatOpenAI
+        return ChatOpenAI(model="qwen3:8b", base_url="http://localhost:11434/v1", api_key="ollama")
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    return ChatGoogleGenerativeAI(model="gemini-flash-lite-latest", google_api_key=os.environ["GOOGLE_API_KEY"])
+
+
+def main(limit=None, provider="gemini"):
+    llm = build_llm(provider)
     structured_llm = llm.with_structured_output(FicheExtract)
+    print(f"Provider: {provider}")
 
     files = sorted(f for f in os.listdir(TAF_DIR) if f.endswith(".txt"))
     to_process = deduplicated_files(files)
@@ -133,13 +151,16 @@ def main(limit=None):
             print(f"  FAILED on {filename}: {error}")
 
         elapsed = time.time() - start
-        if elapsed < delay:
+        if provider == "gemini" and elapsed < delay:
             time.sleep(delay - elapsed)
 
     print(f"\nDone: {len(records)} fiches cleaned, saved to {CACHE_PATH}")
 
 
 if __name__ == "__main__":
-    import sys
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
-    main(limit=limit)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("limit", type=int, nargs="?", default=None)
+    parser.add_argument("--provider", choices=["gemini", "ollama"], default="gemini")
+    args = parser.parse_args()
+    main(limit=args.limit, provider=args.provider)
