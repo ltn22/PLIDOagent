@@ -3,8 +3,9 @@
 clean_fiches.py
 
 Batch-cleans the raw PASS fiches in documents/taf/ into structured records
-(UE code, title, pedagogical description, responsable names) via an LLM, and
-caches the result to documents/taf/cleaned.json.
+(UE code, title, description, learning outcomes, competency blocks, campus,
+responsable names) via an LLM, and caches the result to
+documents/taf/cleaned.json.
 
 Not a notebook cell: Gemini's free tier caps at 15 requests/minute, so ~275
 fiches take at least ~20 minutes even with perfect pacing -- too slow to run
@@ -32,6 +33,11 @@ CACHE_PATH = os.path.join(TAF_DIR, "cleaned.json")
 REQUESTS_PER_MINUTE = 12  # stay under Gemini free tier's 15 RPM cap
 
 
+class Competency(BaseModel):
+    code: str = Field(description="The competency block code, e.g. BC02-DSC-2")
+    description: str = Field(description="What this competency block covers")
+
+
 class FicheExtract(BaseModel):
     ue_code: str = Field(description="The UE code, e.g. PA-DI-ADEEPL-B")
     title: str = Field(description="The course title, cleaned up -- no numbering, no UE code prefix")
@@ -41,6 +47,9 @@ class FicheExtract(BaseModel):
     learning_outcome: str = Field(description="The intended learning outcomes ('Résultats "
                                    "d'apprentissages visés' section) -- what a student should be able "
                                    "to do after completing the course, not just what it covers.")
+    competencies: list[Competency] = Field(description="Each competency block listed under 'III. "
+                                            "Compétences développées dans l'UE' / 'Instanciations des "
+                                            "blocs de compétences' -- code and description.")
     campus: str = Field(description="The campus/site the course is taught on (e.g. Brest, Rennes, "
                          "Nantes), from the 'UE proposée sur le site de' field.")
     responsables: list[str] = Field(description="Names of the UE responsable(s), exactly as listed "
@@ -101,10 +110,12 @@ def main(limit=None):
         start = time.time()
         try:
             result = structured_llm.invoke(
-                f"Extract the pedagogical content from this course fiche:\n\n{text[:4000]}")
+                f"Extract the pedagogical content from this course fiche:\n\n{text}")
             records.append({"ue_code": result.ue_code, "title": result.title,
                              "description": result.description,
-                             "learning_outcome": result.learning_outcome, "campus": result.campus,
+                             "learning_outcome": result.learning_outcome,
+                             "competencies": [c.model_dump() for c in result.competencies],
+                             "campus": result.campus,
                              "responsables": result.responsables, "source_file": filename})
             save_cache(records)  # write after every fiche -- resumable if interrupted
             print(f"  [{len(records)}] {result.ue_code}: {result.title}")
