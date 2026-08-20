@@ -122,6 +122,14 @@ def main(limit=None):
             save_cache(records)  # write after every fiche -- resumable if interrupted
             print(f"  [{len(records)}] {result.ue_code}: {result.title}")
         except Exception as error:
+            # A per-day quota error won't clear up by retrying the next fiche 5s later --
+            # every remaining fiche would just fail the same way. Stop cleanly instead of
+            # burning through the rest of the list logging identical failures; what's
+            # already in records is saved, so re-running later resumes right here.
+            if "RESOURCE_EXHAUSTED" in str(error) or "429" in str(error):
+                print(f"\nHit the daily quota after {len(records)} fiches -- stopping here. "
+                      f"Re-run this script later (tomorrow, if it's the per-day cap) to resume.")
+                break
             print(f"  FAILED on {filename}: {error}")
 
         elapsed = time.time() - start
