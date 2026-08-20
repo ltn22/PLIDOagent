@@ -36,8 +36,13 @@ class FicheExtract(BaseModel):
     ue_code: str = Field(description="The UE code, e.g. PA-DI-ADEEPL-B")
     title: str = Field(description="The course title, cleaned up -- no numbering, no UE code prefix")
     description: str = Field(description="Clean pedagogical description: what the course covers, its "
-                              "objectives, content and prerequisites -- prose only, no PASS UI labels, "
-                              "table clutter, or administrative metadata like credits or campus.")
+                              "content and prerequisites -- prose only, no PASS UI labels, table "
+                              "clutter, or administrative metadata like credits or campus.")
+    learning_outcome: str = Field(description="The intended learning outcomes ('Résultats "
+                                   "d'apprentissages visés' section) -- what a student should be able "
+                                   "to do after completing the course, not just what it covers.")
+    campus: str = Field(description="The campus/site the course is taught on (e.g. Brest, Rennes, "
+                         "Nantes), from the 'UE proposée sur le site de' field.")
     responsables: list[str] = Field(description="Names of the UE responsable(s), exactly as listed "
                                      "in the Responsable(s) field.")
 
@@ -98,8 +103,9 @@ def main(limit=None):
             result = structured_llm.invoke(
                 f"Extract the pedagogical content from this course fiche:\n\n{text[:4000]}")
             records.append({"ue_code": result.ue_code, "title": result.title,
-                             "description": result.description, "responsables": result.responsables,
-                             "source_file": filename})
+                             "description": result.description,
+                             "learning_outcome": result.learning_outcome, "campus": result.campus,
+                             "responsables": result.responsables, "source_file": filename})
             save_cache(records)  # write after every fiche -- resumable if interrupted
             print(f"  [{len(records)}] {result.ue_code}: {result.title}")
         except Exception as error:
