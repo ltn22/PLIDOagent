@@ -5,7 +5,7 @@ browse_pass.py
 Agent autonome d'automatisation pour PASS IMT Atlantique.
 - Ouvre Chrome en mode visible (headless=False)
 - Se rend sur https://pass.imt-atlantique.fr
-- Clique sur SSO et saisit 'toutain' comme identifiant
+- Clique sur SSO et saisit 'login' comme identifiant
 - Attend la saisie manuelle du mot de passe et la validation
 - Laisse le navigateur actif pour la navigation vers 'Consultation des fiches pédagogiques' -> 'Catalogue UE - TAF'
 - Pour chaque élément (UE/cours) de la liste, clique et intercepte spécifiquement la FENÊTRE POPUP ouverte

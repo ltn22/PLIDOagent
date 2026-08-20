@@ -9,3 +9,4 @@ documents/*.txt
 documents/taf/
 chroma_book_index/
 taf/
+__pycache__/
