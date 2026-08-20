@@ -36,6 +36,8 @@ REQUESTS_PER_MINUTE = 12  # stay under Gemini free tier's 15 RPM cap
 class Competency(BaseModel):
     code: str = Field(description="The competency block code, e.g. BC02-DSC-2")
     description: str = Field(description="What this competency block covers")
+    raw_text: str = Field(description="The exact, verbatim text of this competency line as it "
+                           "appears in the fiche -- copy it exactly, do not paraphrase or clean it up.")
 
 
 class FicheExtract(BaseModel):
