@@ -19,14 +19,21 @@ once (across however many days it actually needs -- it resumes where it left off
 the notebook loads the cache.
 
 --provider ollama exists for symmetry with clean_fiches.py but is NOT SAFE TO USE for
-this script: tested on qwen3:8b, combining tools=[...] with output_type=ResearchProfile
-made the model skip every tool call entirely and fabricate a complete, plausible-looking
-profile out of nothing -- wrong research themes, invented publication titles, fake URLs
-(https://scholar.google.com/citations?user=abc123, literally a placeholder-shaped fake
-id). Verified by logging every tool invocation: zero calls, for a task that absolutely
-needs them. clean_fiches.py's single structured-output call (no tools, just reformat
-given text) doesn't have this failure mode -- this script's tool-using agent does. Stick
-to --provider gemini here and wait out its quota rather than risk fabricated data about
+this script: tested on both qwen3:8b and mistral:latest, combining tools=[...] with
+output_type=ResearchProfile made both models skip every tool call entirely and
+fabricate a plausible-looking profile from nothing -- wrong research themes, invented
+publication titles, fake URLs (https://scholar.google.com/citations?user=abc123,
+literally a placeholder-shaped fake id); mistral went further and put its own planning
+text ("We'll first search their academic profile on Google Scholar...") into
+research_themes and the tool *names* themselves into sources, instead of ever calling
+them. Verified with an explicit tool-call log: zero invocations on both models, for a
+task that absolutely needs them. Two different local models failing identically points
+to Ollama's OpenAI-compatible endpoint (or how the agents SDK talks to it) not handling
+tools+structured-output together, not a raw capability problem -- llama3.2's separate
+failure on clean_fiches.py's simpler *tool-free* task was a capability problem; this one
+isn't. clean_fiches.py's single structured-output call (no tools, just reformat given
+text) doesn't hit this at all -- this script's tool-using agent does. Stick to
+--provider gemini here and wait out its quota rather than risk fabricated data about
 real people.
 
 Names come straight from the raw fiches in documents/taf/ (not cleaned.json), so this
@@ -143,10 +150,11 @@ def teacher_names():
 
 def build_model(provider):
     if provider == "ollama":
-        print("WARNING: --provider ollama is verified UNSAFE for this script -- qwen3:8b "
-              "skips every tool call and fabricates profiles (wrong themes, invented "
-              "publications, fake URLs) when tools+output_type are combined. See the "
-              "module docstring. Proceeding anyway, but don't trust what comes out.")
+        print("WARNING: --provider ollama is verified UNSAFE for this script -- both "
+              "qwen3:8b and mistral:latest skip every tool call and fabricate profiles "
+              "(wrong themes, invented publications, fake URLs) when tools+output_type "
+              "are combined. See the module docstring. Proceeding anyway, but don't "
+              "trust what comes out.")
         client = AsyncOpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
         return OpenAIChatCompletionsModel(model="qwen3:8b", openai_client=client)
     client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=os.environ["GOOGLE_API_KEY"])
