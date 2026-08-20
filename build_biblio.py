@@ -18,6 +18,17 @@ requests/minute cap and, we found the hard way, a 500 requests/day cap too. Run 
 once (across however many days it actually needs -- it resumes where it left off);
 the notebook loads the cache.
 
+--provider ollama exists for symmetry with clean_fiches.py but is NOT SAFE TO USE for
+this script: tested on qwen3:8b, combining tools=[...] with output_type=ResearchProfile
+made the model skip every tool call entirely and fabricate a complete, plausible-looking
+profile out of nothing -- wrong research themes, invented publication titles, fake URLs
+(https://scholar.google.com/citations?user=abc123, literally a placeholder-shaped fake
+id). Verified by logging every tool invocation: zero calls, for a task that absolutely
+needs them. clean_fiches.py's single structured-output call (no tools, just reformat
+given text) doesn't have this failure mode -- this script's tool-using agent does. Stick
+to --provider gemini here and wait out its quota rather than risk fabricated data about
+real people.
+
 Names come straight from the raw fiches in documents/taf/ (not cleaned.json), so this
 can run independently of clean_fiches.py's own progress.
 """
@@ -130,9 +141,21 @@ def teacher_names():
     return sorted(names)
 
 
-async def main(limit=None):
-    gemini_client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=os.environ["GOOGLE_API_KEY"])
-    gemini_model = OpenAIChatCompletionsModel(model="gemini-flash-lite-latest", openai_client=gemini_client)
+def build_model(provider):
+    if provider == "ollama":
+        print("WARNING: --provider ollama is verified UNSAFE for this script -- qwen3:8b "
+              "skips every tool call and fabricates profiles (wrong themes, invented "
+              "publications, fake URLs) when tools+output_type are combined. See the "
+              "module docstring. Proceeding anyway, but don't trust what comes out.")
+        client = AsyncOpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
+        return OpenAIChatCompletionsModel(model="qwen3:8b", openai_client=client)
+    client = AsyncOpenAI(base_url=GEMINI_BASE_URL, api_key=os.environ["GOOGLE_API_KEY"])
+    return OpenAIChatCompletionsModel(model="gemini-flash-lite-latest", openai_client=client)
+
+
+async def main(limit=None, provider="gemini"):
+    gemini_model = build_model(provider)
+    print(f"Provider: {provider}")
 
     agent = Agent(
         name="Faculty Research Profiler",
@@ -180,13 +203,16 @@ async def main(limit=None):
             print(f"  FAILED on {name}: {error}")
 
         elapsed = time.time() - start
-        if elapsed < SECONDS_PER_TEACHER:
+        if provider == "gemini" and elapsed < SECONDS_PER_TEACHER:
             time.sleep(SECONDS_PER_TEACHER - elapsed)
 
     print(f"\nDone: {len(biblio)} teachers profiled, saved to {BIBLIO_PATH}")
 
 
 if __name__ == "__main__":
-    import sys
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
-    asyncio.run(main(limit=limit))
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("limit", type=int, nargs="?", default=None)
+    parser.add_argument("--provider", choices=["gemini", "ollama"], default="gemini")
+    args = parser.parse_args()
+    asyncio.run(main(limit=args.limit, provider=args.provider))
